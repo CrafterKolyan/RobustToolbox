@@ -1,9 +1,7 @@
 ﻿name: Publish Client Build
 
 on:
-  push:
-    tags:
-    - 'v*'
+  workflow_dispatch
 
 jobs:
   build:
